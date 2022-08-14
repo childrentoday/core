@@ -24,9 +24,6 @@ if(!$connect) {
 
 // --формируем запрос данных из конкретной таблицы
 $sql = "SELECT * FROM " .DB_TABL ;
-// -- вариант 1: $sql = "SELECT * FROM test WHERE ID > 1 ";
-// -- вариант 2: $t = 2;
-// -- вариант 2: $sql = "SELECT * FROM test WHERE ID > $t ";
 
 // --
 $result = mysqli_query($connect, $sql);
@@ -37,12 +34,13 @@ if(mysqli_num_rows($result) > 0) {
         $arr[] = $row;
     }
 } else {
-  echo "0 result";
+    echo "0 result";
 }
 
 echo "<pre>";
 print_r($arr);
 echo "</pre>";
+
 //var_dump(mysqli_num_rows($result));
 // -- закрываем открытое соединение с сервером MySQL
 mysqli_close($connect);
