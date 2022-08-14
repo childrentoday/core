@@ -10,7 +10,7 @@ require_once 'config.php';
 // define('DB_PASS', '');
 // define('DB_NAME', 'phpconstructor');
 // define('DB_CHAR', '');
-define('DB_TABL', 'test');
+// define('DB_TABL', 'test');
 
 
 // --выполняем подключение к серверу MySQL и выбираем с какой базой будем работать
