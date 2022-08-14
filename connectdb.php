@@ -10,6 +10,7 @@ require_once 'config.php';
 // define('DB_PASS', '');
 // define('DB_NAME', 'phpconstructor');
 // define('DB_CHAR', '');
+define('DB_TABL', 'test');
 
 
 // --выполняем подключение к серверу MySQL и выбираем с какой базой будем работать
@@ -23,9 +24,9 @@ if(!$connect) {
 
 // --формируем запрос данных из конкретной таблицы
 $sql = "SELECT * FROM " .DB_TABL ;
-// -- вариант 1: $sql = "SELECT * FROM la_test WHERE ID > 1 ";
+// -- вариант 1: $sql = "SELECT * FROM test WHERE ID > 1 ";
 // -- вариант 2: $t = 2;
-// -- вариант 2: $sql = "SELECT * FROM la_test WHERE ID > $t ";
+// -- вариант 2: $sql = "SELECT * FROM test WHERE ID > $t ";
 
 // --
 $result = mysqli_query($connect, $sql);
