@@ -1,9 +1,4 @@
 -- База данных: `phpconstructor`
---
-
--- --------------------------------------------------------
-
---
 -- Структура таблицы `test`
 --
 
@@ -25,7 +20,3 @@ CREATE TABLE IF NOT EXISTS `test` (
 INSERT INTO `test` (`ID`, `user_login`, `user_pass`, `user_email`, `user_registered`, `user_url`, `user_sys_status`) VALUES
 (1, 'Name', '123456', 'name@phpconstructor.loc', '14/08/2022 12:45', 'https://phpconstructor.local/user', 5),
 (2, 'Имя', '123456', 'name@phpconstructor.loc', '14/08/2022 12:45', 'https://phpconstructor.local/user', 5);
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
