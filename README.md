@@ -38,7 +38,7 @@
 ### `function.php`
 
 
-функция `connect()` - выполняет подключение к серверу
+функция `connect()` - выполняет подключение к базе
 
 ```php
 function connect() {
@@ -52,4 +52,14 @@ function connect() {
     }
     return $connect;
 }
+```
+
+
+функция `close()` - закрывает открытое содинение с базой
+
+```php
+function close($connect) {
+    mysqli_close($connect);
+}
+
 ```
