@@ -3,6 +3,10 @@
 Частенько бывает, для каких-нибудь проектов, возникает необходимость быстро собрать рабочую модель сайта с минимальным функционалом. Учитывая практический опыт я собрал свою интересную конструкцию. 
 По мере возможности, при возникновении желания, вносите свои правки и предложения в имещуюся структуру кода.
 
+Первым шагом устанавливаем [Инструменты разработчика][childrentoday]
+
+[childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
+
 ## Структута
 
 mydomain.local
@@ -33,8 +37,6 @@ mydomain.local
 > Данный текст будет заключен в HTML-теги <p>параграф</p>
 > Данный текст будет заключен в HTML-теги <h1>параграф</h1>
 
-[Инструменты разработчика][childrentoday]
 
-[childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
 
