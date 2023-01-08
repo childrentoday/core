@@ -41,7 +41,6 @@
 
 ### `config.php`
 
-файл `config.php`
 
 ```php
     define('DB_HOST', 'localhost');
@@ -56,10 +55,10 @@
 
 Функции сокращают код.
 
-### function.php
+### `function.php`
 
 
-файл `function.php`
+функция `connect()` - выполняет подключение к серверу
 
 ```php
 function connect() {
@@ -74,4 +73,7 @@ function connect() {
     return $connect;
 }
 ```
+
+функция `mysqli_connect()` - выполняет подключение к серверу
+
 
