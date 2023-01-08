@@ -38,7 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <tr>
               <td><?=$value[id]?></td>
               <td><?=$value[name]?></td>
-              <td><?=$value[patronymic]?></td>
               <td><?=$value[date_birth]?></td>
               <td><?=$value[gender]?></td>
             </tr>
