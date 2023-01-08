@@ -30,3 +30,15 @@ $username = "root";
 $password = "";
 $dbname = "dbtest";
 ```
+> Данный текст будет заключен в HTML-теги <blockquote></blockquote>
+> Данный текст будет заключен в HTML-теги <blockquote></blockquote>
+
+Где-то среди текста встречается [текст ссылки][example].
+
+Также ссылка повторяется [пример адреса][example].
+
+Ссылка на [второй][foo] также [Bar][] ресурсы.
+
+[example]: http://example.com/ "Необязательный заголовок ссылки"
+[foo]: http://example.net/ 'Необязательный заголовок ссылки'
+[bar]: http://example.edu/ (Необязательный заголовок ссылки)
