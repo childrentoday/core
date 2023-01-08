@@ -9,13 +9,8 @@
 [childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
 
-## Структута core
 
-* [core]
-** config.php
-
-
-### Описание 
+### Содержание 
 * 1 Подключение к серверу БД
 * 2 Работа с функциями
 
@@ -58,4 +53,3 @@ function connect() {
     return $connect;
 }
 ```
-
