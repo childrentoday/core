@@ -11,42 +11,27 @@
 
 ## Структута core
 
-* [core][core]
+* [core]
+** config.php
 
-* [config.php][#config.php]
-
-
-
-[mydomain][mydomain.local]
-
-[|---/css][css]
-
-[|---/img][img]
-
-[|---/js][js]
 
 ### Описание 
 * 1 Подключение к серверу БД
-* 2 база
-* 3 каркас
-* 4 конфигурация
-* -- ОФОРМЛЕНИЕ ТЕМЫ
-* 5 навигация
+* 2 Работа с функциями
 
 ## Подключение к серверу БД
 
-
 Для работы с базой данных требуется установить правильные параметры подключения к серверу MySql. 
-В моём примере: localhost - сервер, root - пользователь, dbtest - база данных.
+В моём примере я буду использовать: localhost - сервер, root - пользователь, dbtest - база данных.
 
 ### `config.php`
 
 
 ```php
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', '');
-    define('DB_NAME', 'dbtest');
+    define('DB_HOST', 'localhost'); // сервер
+    define('DB_USER', 'root');      // пользователь
+    define('DB_PASS', '');          // пароль
+    define('DB_NAME', 'dbtest');    // база данных
 ```
 
 
@@ -73,7 +58,4 @@ function connect() {
     return $connect;
 }
 ```
-
-функция `mysqli_connect()` - выполняет подключение к серверу
-
 
