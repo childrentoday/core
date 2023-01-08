@@ -32,20 +32,28 @@
 
 Для работы с базой данных требуется установить правильные параметры подключения к серверу MySql. 
 В моём примере: localhost - сервер, root - пользователь, dbtest - база данных.
+
 файл `config.php`
 
 ```php
-    $servername = "localhost"; // сервер
-    $username   = "root";      // пользователь
-    $password   = "";          // пароль
-    $dbname     = "dbtest";    // база данных
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'root');
+    define('DB_PASS', '');
+    define('DB_NAME', 'dbtest');
 ```
 
+файл `function.php`
 
-> Данный текст будет заключен в HTML-теги <html>html</html>
-> Данный текст будет заключен в HTML-теги <p>параграф</p>
-> Данный текст будет заключен в HTML-теги <h1>параграф</h1>
-
-
-
-
+```php
+function connect() {
+    // --выполняем подключение к серверу MySQL и выбираем с какой базой будем работать
+    $connect = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    // --проверяем рабочее состояние подключения к серверу
+    if(!$connect) {
+        echo "Ошибка подключения к серверу:".mysqli_connect_error();
+        echo "Код ошибки:".mysqli_connect_errno();
+        exit();
+    }
+    return $connect;
+}
+```
