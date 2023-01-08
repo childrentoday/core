@@ -33,12 +33,8 @@ mydomain.local
 > Данный текст будет заключен в HTML-теги <p>параграф</p>
 > Данный текст будет заключен в HTML-теги <h1>параграф</h1>
 
-Где-то среди текста встречается [текст ссылки][example].
+[Инструменты разработчика][childrentoday]
 
-Также ссылка повторяется [пример адреса][example].
+[childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
-Ссылка на [второй][foo] также [Bar][] ресурсы.
 
-[example]: http://example.com/ "Необязательный заголовок ссылки"
-[foo]: http://example.net/ 'Необязательный заголовок ссылки'
-[bar]: http://example.edu/ (Необязательный заголовок ссылки)
