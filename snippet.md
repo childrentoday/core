@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ```
 
-### Подсчет колличества записей в базе
+### Подсчет колличества записей в базе `mysqli_num_rows()`
 ```php
 
     define('DB_HOST', 'localhost'); // сервер
