@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ### Подсчет колличества записей в базе
 ```php
-<?php
+
     define('DB_HOST', 'localhost'); // сервер
     define('DB_USER', 'root');      // пользователь
     define('DB_PASS', '');          // пароль
@@ -31,6 +31,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // -- закрываем текущее соединение с базой
     mysqli_close($connect);
 ```
+
+### Альтернативный синтаксис php `foreach`
+```php
+<?php foreach ($arr as $key => $value): ?>
+            <tr>
+              <td><?=$value[id]?></td>
+              <td><?=$value[name]?></td>
+              <td><?=$value[patronymic]?></td>
+              <td><?=$value[date_birth]?></td>
+              <td><?=$value[gender]?></td>
+            </tr>
+   <?php endforeach; ?>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 |Функция|Описание|
 |----|-----|
