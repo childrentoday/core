@@ -20,18 +20,17 @@ mydomain.local
 
 # Установливаю параметры подключения к серверу
 
-Для работы с базой данных требуется для начала установить правильные параметры подключения к серверу MySql.
+Для работы с базой данных требуется для начала установить правильные параметры подключения к серверу MySql. 
 В моём примере: localhost - сервер, root - пользователь без пароля, dbtest - база данных, 
 
 ```php
-<?
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "dbtest";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "dbtest";
 ```
-> Данный текст будет заключен в HTML-теги <blockquote></blockquote>
-> Данный текст будет заключен в HTML-теги <blockquote></blockquote>
+> Данный текст будет заключен в HTML-теги <blockquote>ва</blockquote>
+> Данный текст будет заключен в HTML-теги <blockquote>ва</blockquote>
 
 Где-то среди текста встречается [текст ссылки][example].
 
