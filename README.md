@@ -29,6 +29,20 @@
     define('DB_NAME', 'dbtest');    // база данных
 ```
 
+### `examle5.php`
+
+```php
+// --выполняем подключение к серверу MySQL и выбираем с какой базой будем работать
+$connect = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+```
+
+```php
+// -- Сформируем SQL запрос к таблице `users` и выведем массив данных хранящися в поле `name` :
+$result = $connect->query('SELECT * FROM users');
+while ($row = $result->fetch_assoc()) {
+	echo $row['name'] . '<br>';
+}
+```
 
 ## Работа с функциями
 
