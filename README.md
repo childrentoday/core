@@ -8,8 +8,6 @@
 
 [childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
-[Custom foo description](#foo)
-
 
 ### Содержание 
 * 1 Подключение к серверу БД
@@ -75,7 +73,6 @@ function connect() {
 }
 ```
 
-# Foo
 
 функция `close()` - закрывает открытое содинение с базой
 
