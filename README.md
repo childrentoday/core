@@ -45,10 +45,8 @@ while ($row = $result->fetch_assoc()) {
 ```
 
 ```php
-function connect() {
     // -- Выводим количество записей в таблице users
     echo $result->num_rows;
-}
 ```
 
 ## Работа с функциями
