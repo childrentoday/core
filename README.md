@@ -85,6 +85,7 @@ function close($connect) {
 
 Обработка формы через `button` 
 ```php
+<?php
 if ($_POST['button1'] == 'button3') {
     echo "<p>Нажата кнопка 3</p>";
     }
