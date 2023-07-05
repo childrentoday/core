@@ -2,9 +2,6 @@
 
 Примечание: <i>По мере возможности, при возникновении желания вы можете вносите свои правки и предложения в имещуюся структуру кода. </i>
 
-Шаг первый - устанавливаем [инструменты разработчика][childrentoday]
-
-[childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
 [baseinfo]: https://github.com/childrentoday/core/blob/master/readme/readme.md
 
