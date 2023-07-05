@@ -5,10 +5,14 @@
 
 [baseinfo]: https://github.com/childrentoday/core/blob/master/readme/readme.md
 
+[forminfo]: https://github.com/childrentoday/core/blob/master/readme/form.md
+
+
+
 ### Содержание 
 * 1 Базовая часть [описание][baseinfo]
-* 1.1 Работа с функциями
-* 1.2 Работа с формой
+* 1.1 Работа с функциями 
+* 1.2 Работа с формой [описание][forminfo]
 * 2 Определяем структуру сайта
 * 2.1 Собираем контроллер
 * 4 Определяем структуру БД
