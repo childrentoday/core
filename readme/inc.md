@@ -2,14 +2,14 @@
 
 ```html
 /host/mysite/
-           /css/
-
-          /guide/
-
     - config.php
     - index.php
       /template/
          - inc.php
+      /css/
+
+     /guide/
+
 ```
 ```
 Абсолютный путь — это полный адрес файла начиная от корня диска.
