@@ -54,14 +54,7 @@ while ($row = $result->fetch_assoc()) {
 
 
 
-функция `close()` - закрывает открытое содинение с базой
 
-```php
-function close($connect) {
-    mysqli_close($connect);
-}
-
-```
 
 Обработка формы через `button` 
 ```php
