@@ -4,8 +4,8 @@
 ```html
 /host/mysite/
     - index.php
-    - dir/
-        - config.php
+      /template/
+         - config.php
 ```
 ```
 Абсолютный путь — это полный адрес файла начиная от корня диска.
