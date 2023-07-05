@@ -6,7 +6,7 @@
 
 [childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
-[baseinfo]: https://github.com/childrentoday/core/readme/readme.md
+[baseinfo]: https://github.com/childrentoday/core/blob/master/readme/readme.md
 
 ### Содержание 
 * 1 Базовая часть [описание][baseinfo]
