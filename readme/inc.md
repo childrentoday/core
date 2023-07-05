@@ -2,6 +2,11 @@
 
 ```html
 /host/mysite/
+           /css/
+
+          /guide/
+
+    - config.php
     - index.php
       /template/
          - inc.php
