@@ -1,17 +1,18 @@
 
 ### Подключение внешних файлов
-###  При подключении внешнего файла в качестве его адреса указывают абсолютный или относительный путь.
+
 ```html
 /host/mysite/
     - index.php
     - dir/
         - config.php
-
+```
 ```
 __Абсолютный путь__ — это полный адрес файла начиная от корня диска.
-                    Например: __/host/mysite/template/config.php__
+Например: __/host/mysite/template/config.php__
 __Относительный путь__ - содержит адрес относительно текущей рабочей директории. 
-                    Например: если файл лежит в папке /host/mysite, то для подключения этого файла используется такой путь: __template/config.php__
+Например: если файл лежит в папке /host/mysite, то для подключения этого файла используется такой путь: __template/config.php__
+```
 ```php
 /*
  Полезно знать про две встроенные константы, обычно их используют определяя путь к подключаемым файлам.
@@ -27,7 +28,7 @@ require_once  __DIR__ . '/template/config.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/template/config.php'
 
 // Чтобы путь был правильным на любой платформе (Linux или Windows) следует использовать DIRECTORY_SEPARATOR:
-require_once $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'config.php'
+require_once $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'template' . DIRECTORY_SEPARATOR . 'config.php'
 
 
 ```
