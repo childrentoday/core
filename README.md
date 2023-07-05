@@ -6,9 +6,13 @@
 
 [childrentoday]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
+[baseinfo]: https://github.com/childrentoday/registration/blob/master/install/MyTools.md
 
 ### Содержание 
-* 1 Подключение к серверу БД
-* 2 Работа с функциями
+* 1 Базовая часть [описание][baseinfo]
+* 1.1 Работа с функциями
+* 2 Определяем структуру сайта
+* 2.1 Собираем контроллер
+* 4 Определяем структуру БД
+* 4.1 Подключение к серверу БД
 
-## Подключение к серверу БД
