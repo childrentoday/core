@@ -26,7 +26,7 @@
 require_once  __DIR__ . '/template/config.php';
 
 // Или относительно корня сайта ($_SERVER['DOCUMENT_ROOT'])
-require $_SERVER['DOCUMENT_ROOT'] . '/template/config.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/template/config.php';
 
 // Чтобы путь был правильным на любой платформе (Linux или Windows) следует использовать DIRECTORY_SEPARATOR:
 require_once $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'template' . DIRECTORY_SEPARATOR . 'config.php';
