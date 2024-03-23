@@ -15,22 +15,20 @@ echo $user[name];
 ### 3. Создадим многомерный массив
 
 ```php
-$arr = [
+$students = [
     ['id' => '1001', 'name' => 'Oleg'],
-    ['id', '1002', '' ],
-    
+    ['id', '1002', 'name' => 'Ivan'],
+    ['id', '1003', 'name' => 'Vlad']
 ];
 ```
 
 
 ### Альтернативный синтаксис php `foreach`
 ```php
-<?php foreach ($arr as $key => $value): ?>
+<?php foreach ($students as $key => $value): ?>
             <tr>
-              <td><?=$value[id]?></td>
-              <td><?=$value[name]?></td>
-              <td><?=$value[date_birth]?></td>
-              <td><?=$value[gender]?></td>
+                <td><?=$key?></td>
+                <td><?=$value?></td>
             </tr>
    <?php endforeach; ?>
 ```
