@@ -9,9 +9,9 @@ echo $arr[id]."\n";
 echo $arr[name];
 ```
 
+### 3. Создадим еще один массив
 
-
-
+```php
 $arr = [["name", "Viktor"], ["game", "home"]];
 ```
 
