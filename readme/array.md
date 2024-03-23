@@ -1,5 +1,10 @@
 ### 1. Создадим массив
 ```php
+$arr = ['id' => '123456789', 'name' => 'Oleg'];
+echo $arr[id]."\n";
+echo $arr[name];
+
+
 $arr = [["name", "Viktor"], ["game", "home"]];
 ```
 
