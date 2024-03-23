@@ -1,4 +1,7 @@
 
+$array = ["name", "game", "home"];
+
+
 ### Альтернативный синтаксис php `foreach`
 ```php
 <?php foreach ($arr as $key => $value): ?>
