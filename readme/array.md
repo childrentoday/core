@@ -1,5 +1,7 @@
-
-$array = [["name", "Viktor"], ["game", "home"]];
+### 1. Создадим массив
+```php
+$arr = [["name", "Viktor"], ["game", "home"]];
+```
 
 
 ### Альтернативный синтаксис php `foreach`
