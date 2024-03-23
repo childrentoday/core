@@ -1,5 +1,5 @@
 
-$array = ["name", "game", "home"];
+$array = [["name", "Viktor"], ["game", "home"]];
 
 
 ### Альтернативный синтаксис php `foreach`
