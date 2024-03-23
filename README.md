@@ -7,11 +7,13 @@
 
 [forminfo]: https://github.com/childrentoday/core/blob/master/readme/form.md
 
+[arrayinfo]: https://github.com/childrentoday/core/blob/master/readme/array.md
+
 
 
 ### Содержание 
 * 1 Базовая часть [описание][baseinfo]
-* 1.1 Работа с массивами [описание][baseinfo]
+* 1.1 Работа с массивами [описание][arrayinfo]
 * 1.2 Работа с функциями 
 * 1.3 Работа с формой [описание][forminfo]
 * 2 Определяем структуру сайта
