@@ -23,7 +23,7 @@ $students = [
 ```
 
 
-### Альтернативный синтаксис php `foreach`
+### 4. Выведем значения массива используя альтернативный синтаксис php `foreach`
 ```php
 <?php foreach ($students as $key => $value): ?>
             <tr>
